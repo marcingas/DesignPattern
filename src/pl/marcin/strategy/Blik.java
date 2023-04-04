@@ -1,14 +1,15 @@
 package pl.marcin.strategy;
 
+import java.util.Scanner;
+
 public class Blik implements PaymentForm{
     private int blikCode;
-
-    public Blik(int blikCode) {
-        this.blikCode = blikCode;
-    }
+    Scanner scanner = new Scanner(System.in);
 
     @Override
     public String processPayment(double amount) {
-        return "Accepting your Blik code "+blikCode+"..., " + amount + " USD amount transfered";
+        System.out.println("You choose BLIK, type your BLIK code: ");
+        int code = scanner.nextInt();
+        return "Accepting your Blik code "+ code +"..., " + amount + " USD amount transfered";
     }
 }
