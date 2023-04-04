@@ -9,6 +9,6 @@ public class Blik implements PaymentForm{
 
     @Override
     public String processPayment(double amount) {
-        return "Accepting your Blik code "+blikCode+"..., " + amount + " amount transfered";
+        return "Accepting your Blik code "+blikCode+"..., " + amount + " USD amount transfered";
     }
 }

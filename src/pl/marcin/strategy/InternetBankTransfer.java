@@ -13,6 +13,6 @@ public class InternetBankTransfer implements PaymentForm{
     public String processPayment(double amount) {
 
         return "connecting to your bank: " + bankName + ", now please log in to your account and accept amount: " +
-                amount;
+                amount + " USD";
     }
 }
