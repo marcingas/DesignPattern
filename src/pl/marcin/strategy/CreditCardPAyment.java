@@ -1,2 +1,4 @@
-package pl.marcin.strategy;public class CreditCardPAyment {
+package pl.marcin.strategy;
+
+public class CreditCardPAyment {
 }

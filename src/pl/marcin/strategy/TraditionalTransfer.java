@@ -1,2 +1,4 @@
-package pl.marcin.strategy;public class InternetBankingForm {
+package pl.marcin.strategy;
+
+public class TraditionalTransfer {
 }
