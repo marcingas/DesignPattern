@@ -6,14 +6,14 @@ public class PaymentRunner {
         PaymentForm creditCard = new CreditCardPayment();
         PaymentForm internetBankTransfer = new InternetBankTransfer();
 
-        processPaymentPrinter(blik,300);
-        processPaymentPrinter(creditCard,300);
-        processPaymentPrinter(internetBankTransfer,300);
+        ProcessPaymentExecutor(blik,300);
+        ProcessPaymentExecutor(creditCard,300);
+        ProcessPaymentExecutor(internetBankTransfer,300);
 
 
 
     }
-    public static void processPaymentPrinter(PaymentForm paymentForm, int amount){
+    public static void ProcessPaymentExecutor(PaymentForm paymentForm, int amount){
         System.out.println(paymentForm.processPayment(amount));
     }
 
