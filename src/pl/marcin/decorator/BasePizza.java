@@ -1,10 +1,12 @@
 package pl.marcin.decorator;
 
-public class Margerita implements Pizza {
+public class BasePizza implements Pizza {
     private String name;
+    private double price;
 
-    public Margerita(String name) {
+    public BasePizza(String name, double price) {
         this.name = name;
+        this.price = price;
     }
 
     @Override
@@ -14,6 +16,6 @@ public class Margerita implements Pizza {
 
     @Override
     public double getCost() {
-        return 20;
+        return price;
     }
 }
