@@ -1,6 +1,6 @@
 package pl.marcin.decorator;
 
-public interface PizzaOrder {
+public interface Pizza {
     String getDescription();
     double getCost();
 }
