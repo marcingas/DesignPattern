@@ -1,6 +1,6 @@
 package pl.marcin.decorator;
 
-public class DecoratorHam extends MargeritaDecorator {
+public class DecoratorHam extends BasePizzaDecorator {
     public DecoratorHam(Pizza decoratedPizza) {
         super(decoratedPizza);
     }

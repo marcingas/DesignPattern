@@ -1,9 +1,9 @@
 package pl.marcin.decorator;
 
-public abstract class MargeritaDecorator implements Pizza {
+public abstract class BasePizzaDecorator implements Pizza {
     protected Pizza decoratedPizza;
 
-    public MargeritaDecorator(Pizza decoratedPizza) {
+    public BasePizzaDecorator(Pizza decoratedPizza) {
         this.decoratedPizza = decoratedPizza;
     }
 
