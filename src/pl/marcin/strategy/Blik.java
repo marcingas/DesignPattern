@@ -4,12 +4,15 @@ import java.util.Scanner;
 
 public class Blik implements PaymentForm{
     private int blikCode;
-    Scanner scanner = new Scanner(System.in);
+
+    public Blik(int blikCode) {
+        this.blikCode = blikCode;
+    }
 
     @Override
     public String processPayment(double amount) {
-        System.out.println("You choose BLIK, type your BLIK code: ");
-        int code = scanner.nextInt();
-        return "Accepting your Blik code "+ code +"..., " + amount + " USD amount transfered";
+        System.out.println("----You choose BLIK---- \nAccepting your Blik code: " + blikCode + " ...");
+
+        return "amount: " + amount + " USD transfered";
     }
 }

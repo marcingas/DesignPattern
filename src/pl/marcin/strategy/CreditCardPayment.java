@@ -4,17 +4,20 @@ import java.util.Scanner;
 
 public class CreditCardPayment implements PaymentForm{
     private int cvvCode;
-    private int creditCardNum;
+    private String creditCardNum;
 
-    Scanner scanner = new Scanner(System.in);
+    public CreditCardPayment(int cvvCode, String creditCardNum) {
+        this.cvvCode = cvvCode;
+        this.creditCardNum = creditCardNum;
+    }
+
 
     @Override
-    public String processPayment(double ammount) {
-        System.out.println("You choose Credit Card, type your card nr: ");
-        creditCardNum = scanner.nextInt();
-        System.out.println("Type your cvv code: ");
-        cvvCode = scanner.nextInt();
-        return "...charging your card "+creditCardNum + ", code: "+ cvvCode +" with: "+
-                ammount+" USD...,amount transferred  ";
+    public String processPayment(double amount) {
+        System.out.println("---You choose Credit Card payment---"+
+    "\n...charging your card "+creditCardNum + "\ncode: "+ cvvCode +" with: "+
+        amount + " USD");
+
+        return amount + " USD transferred";
     }
 }

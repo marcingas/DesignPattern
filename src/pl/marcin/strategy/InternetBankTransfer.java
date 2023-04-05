@@ -4,16 +4,17 @@ import java.util.Scanner;
 
 public class InternetBankTransfer implements PaymentForm{
     private String bankName;
-    Scanner scanner = new Scanner(System.in);
 
-
+    public InternetBankTransfer(String bankName) {
+        this.bankName = bankName;
+    }
 
     @Override
     public String processPayment(double amount) {
-        System.out.println("You choose internetBankTransfer, type your bank name: ");
-        bankName = scanner.nextLine();
+        System.out.println("----You choose internetBankTransfer----- \nredirectiong to your bank account " + bankName);
 
-        return "connecting to your bank: " + bankName + ", now please log in to your account and accept amount: " +
+
+        return "...please log in to your account and accept amount: " +
                 amount + " USD";
     }
 }
