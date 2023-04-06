@@ -26,15 +26,14 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car{" +
-                ", make='" + make + '\'' +
-                ", model='" + model + '\'' +
-                ", doors=" + doors +
-                ", seats=" + seats +
-                ", tyres='" + tyres + '\'' +
-                ", GPS=" + gps +
-                ", engine=" + engine +
-                '}';
+        return
+                "make : " + make + "\n" +
+                "model : " + model + "\n" +
+                "doors : " + doors + " \n"+
+                "seats : " + seats +"\n" +
+                "tyres : " + tyres + '\n' +
+                "GPS   : " + gps +"\n"+
+                "engine: " + engine;
     }
     public static class CarBuilder{
 
