@@ -13,13 +13,13 @@ public class Car {
     private Engine engine;
 
     private Car(CarBuilder carBuilder) {
-        this.make = make;
-        this.model = model;
-        this.doors = doors;
-        this.seats = seats;
-        this.tyres = tyres;
-        this.gps = gps;
-        this.engine = engine;
+        this.make = carBuilder.make;
+        this.model = carBuilder.model;
+        this.doors = carBuilder.doors;
+        this.seats = carBuilder.seats;
+        this.tyres = carBuilder.tyres;
+        this.gps = carBuilder.gps;
+        this.engine = carBuilder.engine;
     }
 
 
@@ -45,7 +45,6 @@ public class Car {
         private String tyres;
         private boolean gps;
         private Engine engine;
-
 
 
         public CarBuilder setMake(String make) {
