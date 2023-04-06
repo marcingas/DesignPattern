@@ -12,91 +12,27 @@ public class Car {
     private boolean gps;
     private Engine engine;
 
-    private Car(CarBuilder carBuilder) {
-        this.make = carBuilder.make;
-        this.model = carBuilder.model;
-        this.doors = carBuilder.doors;
-        this.seats = carBuilder.seats;
-        this.tyres = carBuilder.tyres;
-        this.gps = carBuilder.gps;
-        this.engine = carBuilder.engine;
+    Car(CarBuilder carBuilder) {
+        this.make = carBuilder.getMake();
+        this.model = carBuilder.getModel();
+        this.doors = carBuilder.getDoors();
+        this.seats = carBuilder.getSeats();
+        this.tyres = carBuilder.getTyres();
+        this.gps = carBuilder.isGps();
+        this.engine = carBuilder.getEngine();
     }
-
 
 
     @Override
     public String toString() {
         return
                 "make : " + make + "\n" +
-                "model : " + model + "\n" +
-                "doors : " + doors + " \n"+
-                "seats : " + seats +"\n" +
-                "tyres : " + tyres + '\n' +
-                "GPS   : " + gps +"\n"+
-                "engine: " + engine;
-    }
-    public static class CarBuilder{
-
-        private String make;
-        private String model;
-        private int doors;
-        private int seats;
-        private String tyres;
-        private boolean gps;
-        private Engine engine;
-
-
-        public CarBuilder setMake(String make) {
-            this.make=make;
-            return this;
-        }
-
-
-        public CarBuilder setModel(String model) {
-            this.model=model;
-            return this;
-        }
-
-
-        public CarBuilder setSeats(int seats) {
-            this.seats = seats;
-            return this;
-
-        }
-
-
-        public CarBuilder setDoors(int doors) {
-            this.doors= doors;
-            return this;
-
-        }
-
-
-        public CarBuilder setEngine(Engine engine) {
-            this.engine = engine;
-            return this;
-
-        }
-
-
-        public CarBuilder setGps(boolean gps) {
-            this.gps=gps;
-            return this;
-
-        }
-
-
-        public CarBuilder setTyres(String tyres) {
-            this.tyres = tyres;
-            return this;
-
-        }
-
-
-        public Car build() {
-            return new Car(this);
-        }
-
+                        "model : " + model + "\n" +
+                        "doors : " + doors + " \n" +
+                        "seats : " + seats + "\n" +
+                        "tyres : " + tyres + '\n' +
+                        "GPS   : " + gps + "\n" +
+                        "engine: " + engine;
     }
 }
 
