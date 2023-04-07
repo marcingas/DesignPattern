@@ -1,9 +1,9 @@
 package pl.marcin.builder.engine;
 
 public class Engine {
-    String name;
-    String type;
-    double capacity;
+    private String name;
+    private String type;
+    private double capacity;
 
     public String getName() {
         return name;
