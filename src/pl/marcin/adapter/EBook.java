@@ -13,16 +13,16 @@ public class EBook implements ElectronicBook{
 
     @Override
     public String getFileName() {
-        return "File name is: " + fileName;
+        return  fileName;
     }
 
     @Override
     public String getFileFormat() {
-        return "File format is: " + fileFormat;
+        return  fileFormat;
     }
 
     @Override
     public String getFileContent() {
-        return "Book is about...: " + fileContent;
+        return  fileContent;
     }
 }

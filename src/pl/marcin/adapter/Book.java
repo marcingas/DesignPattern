@@ -1,10 +1,10 @@
 package pl.marcin.adapter;
 
 public class Book {
-    String author;
-    String title;
-    String description;
-    int issueYear;
+    private String author;
+    private String title;
+    private String description;
+    private int issueYear;
 
     public Book(String author, String title, String description, int issueYear) {
         this.author = author;
