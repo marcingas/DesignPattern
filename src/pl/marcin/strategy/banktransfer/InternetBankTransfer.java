@@ -1,8 +1,6 @@
-package pl.marcin.strategy;
+package pl.marcin.strategy.banktransfer;
 
-import java.util.Scanner;
-
-public class InternetBankTransfer implements PaymentForm{
+public class InternetBankTransfer implements PaymentForm {
     private String bankName;
 
     public InternetBankTransfer(String bankName) {

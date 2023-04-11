@@ -1,8 +1,6 @@
-package pl.marcin.strategy;
+package pl.marcin.strategy.banktransfer;
 
-import java.util.Scanner;
-
-public class Blik implements PaymentForm{
+public class Blik implements PaymentForm {
     private int blikCode;
 
     public Blik(int blikCode) {

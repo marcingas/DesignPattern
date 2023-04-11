@@ -1,6 +1,8 @@
-package pl.marcin.strategy;
+package pl.marcin.strategy.banktransfer;
 
-public class TraditionalTransfer implements PaymentForm{
+import pl.marcin.strategy.banktransfer.PaymentForm;
+
+public class TraditionalTransfer implements PaymentForm {
     private String accountNumber;
 
     public TraditionalTransfer(String accountNumber) {

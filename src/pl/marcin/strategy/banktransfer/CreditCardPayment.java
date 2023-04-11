@@ -1,8 +1,6 @@
-package pl.marcin.strategy;
+package pl.marcin.strategy.banktransfer;
 
-import java.util.Scanner;
-
-public class CreditCardPayment implements PaymentForm{
+public class CreditCardPayment implements PaymentForm {
     private int cvvCode;
     private String creditCardNum;
 
