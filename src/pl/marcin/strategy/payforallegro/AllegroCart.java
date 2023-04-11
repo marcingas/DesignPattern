@@ -1,4 +1,4 @@
-package pl.marcin.strategy.banktransfer;
+package pl.marcin.strategy.payforallegro;
 
 import java.util.ArrayList;
 import java.util.List;

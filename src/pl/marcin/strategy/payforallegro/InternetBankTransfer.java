@@ -1,4 +1,4 @@
-package pl.marcin.strategy.banktransfer;
+package pl.marcin.strategy.payforallegro;
 
 public class InternetBankTransfer implements PaymentForm {
     private String bankName;

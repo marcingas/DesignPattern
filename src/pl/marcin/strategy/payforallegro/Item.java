@@ -1,6 +1,4 @@
-package pl.marcin.strategy.banktransfer;
-
-import java.util.List;
+package pl.marcin.strategy.payforallegro;
 
 public class Item {
     String name;

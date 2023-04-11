@@ -1,6 +1,4 @@
-package pl.marcin.strategy.banktransfer;
-
-import pl.marcin.strategy.banktransfer.PaymentForm;
+package pl.marcin.strategy.payforallegro;
 
 public class TraditionalTransfer implements PaymentForm {
     private String accountNumber;
