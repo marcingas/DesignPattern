@@ -1,6 +1,6 @@
 package pl.marcin.strategy.laptopcharger;
 
-public class LaptopMain {
+public class LaptopChargeMain {
     public static void main(String[] args) {
         Laptop laptop = new Laptop("Lenovo", 10);
         connectCharger(laptop, new OldCharger());
