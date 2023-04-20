@@ -2,8 +2,8 @@ package pl.marcin.builder;
 
 public class mainVehicle {
     public static void main(String[] args) {
-        VehicleBuilder car = new VehicleBuilder();
-       Vehicle opel = car.setModel("Opel")
+        VehicleBuilder carbuilder = new VehicleBuilder();
+       Vehicle opel = carbuilder.setModel("Opel")
                 .setColor("White")
                 .setHasSteeringWheel(true)
                 .setHasWheels(true)

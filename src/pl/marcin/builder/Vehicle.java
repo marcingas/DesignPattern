@@ -18,7 +18,7 @@ public class Vehicle {
     @Override
     public String toString() {
         return "Vehicle: " +
-                "model: " + model + '\'' +
+                "\nmodel: " + model + '\'' +
                 ", color: " + color + '\'' +
                 ", steeringWheel: " + steeringWheel +
                 ", wheels: " + wheels +
