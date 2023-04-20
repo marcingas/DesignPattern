@@ -1,7 +1,6 @@
-package pl.marcin.builder.buildercontrol;
+package pl.marcin.advancedbuilder.buildercontrol;
 
-import pl.marcin.builder.engine.DieselEngine;
-import pl.marcin.builder.engine.SportEngine;
+import pl.marcin.advancedbuilder.engine.DieselEngine;
 
 public class ConstructManager {
 

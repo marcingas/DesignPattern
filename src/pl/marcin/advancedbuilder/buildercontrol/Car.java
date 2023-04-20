@@ -1,6 +1,6 @@
-package pl.marcin.builder.buildercontrol;
+package pl.marcin.advancedbuilder.buildercontrol;
 
-import pl.marcin.builder.engine.Engine;
+import pl.marcin.advancedbuilder.engine.Engine;
 
 public class Car {
     private String make;

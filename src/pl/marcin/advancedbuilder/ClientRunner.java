@@ -1,11 +1,8 @@
-package pl.marcin.builder;
+package pl.marcin.advancedbuilder;
 
-import pl.marcin.builder.buildercontrol.Car;
-import pl.marcin.builder.buildercontrol.CarBuilder;
-import pl.marcin.builder.buildercontrol.ConstructManager;
-import pl.marcin.builder.engine.DieselEngine;
-import pl.marcin.builder.engine.GasEngine;
-import pl.marcin.builder.engine.SportEngine;
+import pl.marcin.advancedbuilder.buildercontrol.Car;
+import pl.marcin.advancedbuilder.buildercontrol.CarBuilder;
+import pl.marcin.advancedbuilder.buildercontrol.ConstructManager;
 
 public class ClientRunner {
     public static void main(String[] args) {

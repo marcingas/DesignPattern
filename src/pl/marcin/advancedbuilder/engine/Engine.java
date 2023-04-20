@@ -1,4 +1,4 @@
-package pl.marcin.builder.engine;
+package pl.marcin.advancedbuilder.engine;
 
 public class Engine {
     private String name;
