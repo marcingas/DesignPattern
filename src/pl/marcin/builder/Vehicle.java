@@ -18,10 +18,10 @@ public class Vehicle {
     @Override
     public String toString() {
         return "Vehicle: " +
-                "\nmodel: " + model + '\'' +
-                ", color: " + color + '\'' +
-                ", steeringWheel: " + steeringWheel +
-                ", wheels: " + wheels +
-                ", maxSpeed: " + maxSpeed;
+                "\nmodel: " + model + "\n" +
+                "color: " + color + "\n" +
+                "steeringWheel: " + steeringWheel +
+                "\nwheels: " + wheels +
+                "\nmaxSpeed: " + maxSpeed + " km/h";
     }
 }
