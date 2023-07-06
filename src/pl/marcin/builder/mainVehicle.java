@@ -5,7 +5,10 @@ import java.util.Vector;
 public class mainVehicle {
     public static void main(String[] args) {
         VehicleBuilder carbuilder = new VehicleBuilder();
-        printBuilderWork(buildCar(carbuilder));
+        Vehicle newCar = carbuilder.setMaxSpeed(200).setColor("Blue").setModel("Porshe").build();
+        System.out.println(newCar);
+//        printBuilderWork(buildCar(carbuilder));
+
 
 
     }

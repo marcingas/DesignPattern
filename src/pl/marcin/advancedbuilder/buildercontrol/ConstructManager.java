@@ -6,7 +6,6 @@ public class ConstructManager {
 
     public Car costructCar(CarBuilder carBuilder){
        return carBuilder
-                .setDoors(5)
                 .setMake("Volkswagen")
                 .setModel("Caravelle")
                 .setEngine(new DieselEngine("TDI",2.5))
