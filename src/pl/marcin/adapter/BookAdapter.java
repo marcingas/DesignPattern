@@ -1,9 +1,9 @@
 package pl.marcin.adapter;
 
-public class EbookAdapter implements ElectronicBook{
+public class BookAdapter implements ElectronicBook{
 Book book;
 
-    public EbookAdapter(Book book) {
+    public BookAdapter(Book book) {
         this.book = book;
     }
 

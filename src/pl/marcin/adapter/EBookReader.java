@@ -9,12 +9,12 @@ public class EBookReader {
         Newspaper newspaper = new Newspaper("Times", "Daily",
                 "Breaking news: Prime minister is happy!", "07/04/2023");
 
-        EbookAdapter eBook1 = new EbookAdapter(book);
-        EnewspaperAdapter eNewspaper = new EnewspaperAdapter(newspaper);
+        ElectronicBook bookAdapter = new BookAdapter(book);
+        ElectronicBook newspaperAdapter = new NewspaperAdapter(newspaper);
 
         readBook(eBook);
-        readBook(eBook1);
-        readBook(eNewspaper);
+        readBook(bookAdapter);
+        readBook(newspaperAdapter);
 
     }
 

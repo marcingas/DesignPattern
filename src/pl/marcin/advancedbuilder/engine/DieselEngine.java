@@ -5,7 +5,5 @@ public class DieselEngine extends Engine{
 
     public DieselEngine(String name, double capacity) {
         super(name, capacity,"Diesel");
-
-
     }
 }

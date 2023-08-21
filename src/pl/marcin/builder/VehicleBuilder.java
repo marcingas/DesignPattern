@@ -1,7 +1,5 @@
 package pl.marcin.builder;
 
-import pl.marcin.advancedbuilder.buildercontrol.CarBuilder;
-
 public class VehicleBuilder {
     private String model;
     private String color;

@@ -1,9 +1,9 @@
 package pl.marcin.adapter;
 
-public class EnewspaperAdapter implements ElectronicBook{
+public class NewspaperAdapter implements ElectronicBook{
     Newspaper newspaper;
 
-    public EnewspaperAdapter(Newspaper newspaper) {
+    public NewspaperAdapter(Newspaper newspaper) {
         this.newspaper = newspaper;
     }
 
